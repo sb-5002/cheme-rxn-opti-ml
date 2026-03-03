@@ -1,8 +1,5 @@
 """
-Artificial Intelligence, Machine Learning and Neural Networks 
-for Chemical Reaction Optimization
-
-Using neural networks to predict optimal conditions for esterification reactions
+Using neural networks to predict optimal conditions for esterification reaction
 """
 
 import numpy as np
@@ -186,3 +183,4 @@ print(f"Acid:Alcohol:   {best_conditions[3]:.2f}")
 print(f"Agitation:      {best_conditions[4]:.0f} RPM")
 
 print(f"Expected Yield: {min(best_yield, 100):.1f}%")
+
