@@ -2,10 +2,6 @@
 Artificial Intelligence, Machine Learning and Neural Networks 
 for Chemical Reaction Optimization
 
-Sohan Banerjee - BITS Pilani
-2024A1PS0265P
-Project for Professor Hare Krishna Mohanta
-
 Using neural networks to predict optimal conditions for esterification reactions
 """
 
@@ -188,4 +184,5 @@ print(f"Catalyst:       {best_conditions[1]:.2f}%")
 print(f"Time:           {best_conditions[2]:.1f} hours")
 print(f"Acid:Alcohol:   {best_conditions[3]:.2f}")
 print(f"Agitation:      {best_conditions[4]:.0f} RPM")
+
 print(f"Expected Yield: {min(best_yield, 100):.1f}%")
